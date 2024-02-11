@@ -10,7 +10,10 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+
+ @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+ :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -8233,6 +8236,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-munsell {
+  --bs-text-opacity: 1;
+  color: #62929E;
+}
+
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
@@ -8322,6 +8330,26 @@ textarea.form-control-lg {
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-champagne {
+  --bs-bg-opacity: 1;
+  background-color: #EEE0CB;
+}
+
+.bg-old-lace {
+  --bs-bg-opacity: 1;
+  background-color: #FFF7EB;
+}
+
+.bg-peach {
+  --bs-bg-opacity: 1;
+  background-color: #FFE5B4;
+}
+
+.bg-p-whip {
+  --bs-bg-opacity: 1;
+  background-color: #FFEDCA;
 }
 
 .bg-body {
@@ -11739,4 +11767,16 @@ html {
 
 .bg-olive {
   background-color: #828039;
+}
+
+.f-pt-serif {
+  font-family: "PT Serif", serif;
+}
+
+.nav-link-color {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.ls-2 {
+  letter-spacing: 2px;
 }
