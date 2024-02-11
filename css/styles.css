@@ -8352,6 +8352,11 @@ textarea.form-control-lg {
   background-color: #FFEDCA;
 }
 
+.bg-m-haze {
+  --bs-bg-opacity: 1;
+  background-color: #8E5572;
+}
+
 .bg-body {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
@@ -11779,4 +11784,12 @@ html {
 
 .ls-2 {
   letter-spacing: 2px;
+}
+
+.service {
+  height: 30vh;
+}
+
+.carousel-control-prev {
+  color: black;
 }

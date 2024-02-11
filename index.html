@@ -16,6 +16,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/cd67891a35.js" crossorigin="anonymous"></script>
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
@@ -25,7 +27,7 @@
                     <div>
                         <a class="navbar-brand" href="index.html"><span class="fs-2 m-haze-header f-pt-serif">Eleonora Corrias </span></a>
                         <hr>
-                        <p class="nav-link-color">Italian marketing translation</p>
+                        <p class="nav-link-color">Marketing translation</p>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,14 +47,14 @@
                         <div class="col-xxl-5">
                             <!-- Header text content-->
                             <div class="text-center text-xxl-start">
-                                <h1 class="display-4 mb-3 f-pt-serif"><span class="d-inline m-haze-header">Translations that nail your brand identity and tone of voice</span></h1>
+                                <h1 class="display-4 mb-3 f-pt-serif"><span class="d-inline m-haze-header">Translating your brand's voice</span></h1>
                                 <div class="fs-5 fw-light text-muted">from German and English into Italian</div>
                             </div>
                         </div>
                         <div class="col-xxl-7">
                             <!-- Header profile picture-->
                             <div class="d-flex justify-content-center mt-5 mt-xxl-0">
-                                <div class="profile bg-old-lace">
+                                <div class="profile bg-m-haze">
                                     <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
                                     <!-- Watch a tutorial on how to do this on YouTube (link)-->
                                     <img class="profile-img" src="assets/profile.webp" alt="..." />
@@ -63,7 +65,7 @@
                 </div>
             </header>
             <!-- About Section-->
-            <section class="bg-old-lace py-5">
+            <section class="bg-old-lace py-5" id="about">
                 <div class="container px-5">
                     <div class="row gx-5 justify-content-center align-items-center">
                         <div class="col-md-5">
@@ -86,40 +88,88 @@
                 </div>
             </section>
             <!-- Services Section-->
-            <section class="bg-light py-5">
-                <div class="container px-5">
+            <section class="bg-light py-5" id="services">
+                <div class="container px-5 text-center">
+                    <h1 class="display-4 f-pt-serif mb-5"><span class="d-inline m-haze-header">Services</span></h1>
                     <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder" id="services"><span class="text-gradient d-inline">My Services</span></h2>
-                                <p class="lead fw-light mb-4">My name is Start Bootstrap and I help brands grow.</p>
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium ratione atque dolorem?</p>
-                                <div class="d-flex justify-content-center fs-2 gap-4">
-                                    <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
-                                    <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
-                                    <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
-                                </div>
-                            </div>
+                        <div class="col-md-4 service start-50">
+                            <i class="fa-solid fa-earth-europe mb-5"></i>
+                            <p>A little bit about this service</p>
                         </div>
+                        <div class="col-md-4 service">
+                            <i class="fa-solid fa-earth-europe mb-5"></i>
+                            <p>A little bit about this service</p>
+                        </div>
+                        <div class="col-md-4 service">
+                            <i class="fa-solid fa-earth-europe mb-5"></i>
+                            <p>A little bit about this service</p>
+                        </div>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-md-2 service"></div>
+                        <div class="col-md-4 service">
+                            <i class="fa-solid fa-earth-europe mb-5"></i>
+                            <p>A little bit about this service</p>
+                        </div>
+                        <div class="col-md-4 service">
+                            <i class="fa-solid fa-earth-europe mb-5"></i>
+                            <p>A little bit about this service</p>
+                        </div>
+                        <div class="col-md-2 service"></div>
                     </div>
                 </div>
             </section>
             <!-- Testimonials Section-->
-            <section class="bg-light py-5">
-                <div class="container px-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-xxl-8">
-                            <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder" id="testimonials"><span class="text-gradient d-inline">Testimonials</span></h2>
-                                <p class="lead fw-light mb-4">My name is Start Bootstrap and I help brands grow.</p>
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit dolorum itaque qui unde quisquam consequatur autem. Eveniet quasi nobis aliquid cumque officiis sed rem iure ipsa! Praesentium ratione atque dolorem?</p>
-                                <div class="d-flex justify-content-center fs-2 gap-4">
-                                    <a class="text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
-                                    <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
-                                    <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
+            <section class="py-5 bg-old-lace" id="testimonials">
+                <div class="container text-center">
+                    <h1 class="display-4 f-pt-serif mb-5"><span class="d-inline m-haze-header">What my clients say</span></h1>
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="mb-3">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div>
+                                    <p>She's well good!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div>
+                                    <p>She's well good!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div>
+                                    <p>She's well good!</p>
                                 </div>
                             </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </section>
