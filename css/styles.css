@@ -11793,3 +11793,11 @@ html {
 .carousel-control-prev {
   color: black;
 }
+
+a {
+  color: rgba(0, 0, 0, 0.55)
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.75)
+}
