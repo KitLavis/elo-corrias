@@ -11798,7 +11798,8 @@ html {
 }
 
 a {
-  color: rgba(0, 0, 0, 0.55)
+  color: rgba(0, 0, 0, 0.55);
+  text-decoration: none;
 }
 
 a:hover {
@@ -11807,4 +11808,12 @@ a:hover {
 
 .text-gray {
   color: rgba(0, 0, 0, 0.55)
+}
+
+.thanks-main {
+  height: 100%;
+}
+
+.thanks-container {
+  height: 100%;
 }
