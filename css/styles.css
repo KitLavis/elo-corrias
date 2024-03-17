@@ -7673,6 +7673,10 @@ textarea.form-control-lg {
   margin-bottom: 3rem !important;
 }
 
+.mb-6 {
+  margin-bottom: 4.5rem !important;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -11621,8 +11625,7 @@ html {
   max-width: 40rem;
 }
 .profile .profile-img {
-  height: 80vw;
-  max-height: 45rem;
+  height: 90vw;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -11671,7 +11674,7 @@ html {
     width: 60vw;
   }
   .profile .profile-img {
-    height: 65vw;
+    height: 70vw;
   }
   .profile .dots-1 {
     width: 3vw;
@@ -11696,7 +11699,7 @@ html {
     width: 50vw;
   }
   .profile .profile-img {
-    height: 55vw;
+    height: 60vw;
   }
   .profile .dots-1 {
     width: 3vw;
@@ -11721,7 +11724,7 @@ html {
     width: 40vw;
   }
   .profile .profile-img {
-    height: 45vw;
+    height: 50vw;
   }
   .profile .dots-1 {
     width: 1.5vw;
@@ -11746,7 +11749,7 @@ html {
     width: 35vw;
   }
   .profile .profile-img {
-    height: 40vw;
+    height: 42vw;
   }
   .profile .dots-1 {
     width: 1.5vw;
@@ -11800,4 +11803,8 @@ a {
 
 a:hover {
   color: rgba(0, 0, 0, 0.75)
+}
+
+.text-gray {
+  color: rgba(0, 0, 0, 0.55)
 }
