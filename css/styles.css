@@ -11789,10 +11789,6 @@ html {
   letter-spacing: 2px;
 }
 
-.service {
-  height: 30vh;
-}
-
 .carousel-control-prev {
   color: black;
 }
@@ -11816,4 +11812,8 @@ a:hover {
 
 .thanks-container {
   height: 100%;
+}
+
+form > .row {
+  width: 100%;
 }
