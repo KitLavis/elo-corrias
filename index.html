@@ -19,6 +19,8 @@
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" />
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/cd67891a35.js" crossorigin="anonymous"></script>
@@ -27,12 +29,12 @@
 <body class="d-flex flex-column h-100" id="top">
     <main class="flex-shrink-0">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-old-lace py-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-old-lace py-3 header">
             <div class="container px-5">
-                <div>
+                <div class="nav-name">
                     <a class="navbar-brand" href="index.html"><span class="fs-2 m-haze-header f-pt-serif">Eleonora
                             Corrias </span></a>
-                    <hr>
+                    <hr class="under-header">
                     <p class="nav-link-color">Italian Translator</p>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -49,8 +51,28 @@
                 </div>
             </div>
         </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-old-lace py-3 scroll-header invisible">
+            <div class="container px-5">
+                <div class="nav-name">
+                    <a class="navbar-brand" href="index.html"><span class="fs-2 m-haze-header f-pt-serif">Eleonora
+                            Corrias </span></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small">
+                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!-- Hero section -->
-        <header class="py-5 bg-p-whip">
+        <header class="hero-section py-5 bg-p-whip">
             <div class="container px-5 pb-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-xxl-5">
@@ -117,7 +139,9 @@
         <!-- Original Code: https://bootsnipp.com/snippets/92xNm -->
         <section id="services" class="py-5 bg-light">
             <div class="container">
-                <h1 class="display-4 f-pt-serif mb-6 text-center"><span class="d-inline m-haze-header">Services</span></h1>
+                <h1 class="display-4 f-pt-serif mb-6 my-5 text-center"><span
+                        class="d-inline m-haze-header">Services</span>
+                </h1>
                 <div class="row">
                     <!-- Service - Translation -->
                     <div class="col-xs-12 col-sm-10 offset-sm-1 col-md-4 offset-md-0">
@@ -125,7 +149,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <div class="card-body text-center d-flex flex-column justify-content-around">
+                                        <div class="card-body text-center d-flex flex-column justify-content-around bg-services">
                                             <h2 class="text-gray"><i class="fa-solid fa-language mb-3"></i></h2>
                                             <h4 class="mb-3 m-haze-header f-pt-serif">Translation</h4>
                                             <p class="text-muted">. . .</p>
@@ -134,20 +158,14 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center d-flex flex-column justify-content-around">
-                                            <h4 class="mb-3 m-haze-header f-pt-serif">Translation</h4>
-                                            <p class="card-text text-muted">I translate user interfaces, apps, product
-                                                descriptions, FAQs, newsletters, blog articles,
-                                                and the like. According to the aim of the text, my approach will be
-                                                faithful or creative -
-                                                an FAQ section
-                                                or a letter from the CEO won’t require much rewriting or rephrasing
-                                                compared to a blog
-                                                article with cultural references that don’t exist in Italian. What you
-                                                will get in both
-                                                cases, though, are translations that will sound natural to your Italian
-                                                audience.
-                                            </p>
+                                        <div class="card-body d-flex flex-column justify-content-around">
+                                            <h4 class="mb-3 m-haze-header f-pt-serif text-center">Translation</h4>
+                                            <ul class="card-text text-muted text-left">
+                                                <li>User interfaces, apps, product descriptions, FAQs, newsletters, blog
+                                                    articles etc...</li>
+                                                <li>Faithful or creative approach dependant on the text</li>
+                                                <li>Natural sounding to an Italian audience</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -160,9 +178,9 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <div class="card-body text-center d-flex flex-column justify-content-around">
-                                            <h2 class="text-gray"><i class="fa-solid fa-pencil mb-3"></i>
-                                                <small>&</small> <i class="fa-solid fa-magnifying-glass mb-3"></i></h2>
+                                        <div class="card-body text-center d-flex flex-column justify-content-around bg-services">
+                                            <h2 class="text-gray"><i class="fa-solid fa-magnifying-glass mb-3"></i>
+                                            </h2>
                                             <h4 class="mb-3 m-haze-header f-pt-serif">Editing and Proofreading</h4>
                                             <p class="text-muted">. . .</p>
                                         </div>
@@ -170,19 +188,14 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center d-flex flex-column justify-content-around">
-                                            <h4 class="mb-3 m-haze-header f-pt-serif">Editing and Proofreading</h4>
-                                            <p class="card-text text-muted">I edit translated texts from English and
-                                                German into Italian. Typos,
-                                                mistranslations, and
-                                                weird formulations won’t last long under my trained (find better word)
-                                                eyes.
-                                                Proofreading is the last step of the process and it’s aimed at ensuring
-                                                that that text flows
-                                                naturally and is completely error free. It is performed directly on the
-                                                Italian text,
-                                                without taking into consideration the original.
-                                            </p>
+                                        <div class="card-body d-flex flex-column justify-content-around">
+                                            <h4 class="mb-3 m-haze-header f-pt-serif text-center">Editing and
+                                                Proofreading</h4>
+                                            <ul class="card-text text-muted text-left">
+                                                <li>Edit translated texts</li>
+                                                <li>Typo, mistranslation and formulation correction</li>
+                                                <li>Ensure natural flow</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -195,7 +208,7 @@
                             <div class="mainflip">
                                 <div class="frontside">
                                     <div class="card">
-                                        <div class="card-body text-center d-flex flex-column justify-content-around">
+                                        <div class="card-body text-center d-flex flex-column justify-content-around bg-services">
                                             <h2 class="text-gray"><i
                                                     class="fa-solid fa-magnifying-glass-location mb-3"></i></h2>
                                             <h4 class="mb-3 m-haze-header f-pt-serif">SEO Localisation</h4>
@@ -205,13 +218,12 @@
                                 </div>
                                 <div class="backside">
                                     <div class="card">
-                                        <div class="card-body text-center d-flex flex-column justify-content-around">
-                                            <h4 class="mb-3 m-haze-header f-pt-serif">SEO Localisation</h4>
-                                            <p class="card-text text-muted">I can localise your meta tags, do a
-                                                keyword-research in Italian and weave
-                                                the keywords in the
-                                                translation.
-                                            </p>
+                                        <div class="card-body d-flex flex-column justify-content-around">
+                                            <h4 class="mb-3 m-haze-header f-pt-serif text-center">SEO Localisation</h4>
+                                            <ul class="card-text text-muted text-left">
+                                                <li>Meta tag localisation</li>
+                                                <li>Keyword research with keywords then incorporated in the text</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -223,58 +235,51 @@
         </section>
         <!-- Testimonials Section-->
         <section class="py-5 bg-old-lace" id="testimonials">
-            <div class="text-center">
-                <h1 class="display-4 f-pt-serif mb-6"><span class="d-inline m-haze-header">What my clients say</span>
+            <div class="container align-items-center">
+                <h1 class="display-4 f-pt-serif mb-6 my-5 text-center"><span class="d-inline m-haze-header">Words from
+                        my Clients</span>
                 </h1>
-                <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="mb-3">
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>
-                            <div>
-                                <p>She's well good!</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>
-                            <div>
-                                <p>She's well good!</p>
+                <div class="accordion" id="accordionExample">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="p-3">
+                                <ul class="testimonial-list">
+                                    <li>
+                                        <div class="card testimonial-card mb-3 p-3 bg-services" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <div class="d-flex flex-row align-items-center">
+                                                <img src="assets/matt-keeble.jpg" width="50" class="rounded-circle">
+                                                <div class="d-flex flex-column ps-2">
+                                                    <span class="font-weight-normal">Matthew Keeble</span>
+                                                    <span>Project Director, Transperfect</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                                <i class="fa-regular fa-star"></i>
-                            </div>
-                            <div>
-                                <p>She's well good!</p>
+                        <div class="col-md-6">
+                            <div class="p-3 testimonials-margin">
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <h4 class="mb-3 m-haze-header f-pt-serif">I would definitely recommend Eleonora
+                                            to anyone</h4>
+                                        <p class="fst-italic text-muted">"It is always a good sign when people take
+                                            obvious pride and consideration in
+                                            their work, Eleonora does just that. Even though we have a very specific
+                                            style and tone needed in our translations, Eleonora has always been
+                                            proactive and willing to learn. And the delivered translations speak for
+                                            that quality focused approach, with good feedback from our internal
+                                            linguists and QA teams, I would definitely recommend Eleonora to anyone."
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
         </section>
@@ -363,9 +368,17 @@
         </div>
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
