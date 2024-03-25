@@ -13830,6 +13830,11 @@ form>.row {
   background-color: #faf8f6;
 }
 
+.contact-image {
+  width: 75%;
+  border-radius: 5px;
+}
+
 /* --------------------------------------------------- Service cards */
 /* Original Code: https://bootsnipp.com/snippets/92xNm */
 
