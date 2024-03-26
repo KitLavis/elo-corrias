@@ -96,6 +96,15 @@ a:hover {
   border-radius: 5px;
 }
 
+.footer-left, .footer-middle, .footer-right {
+  text-align: center;
+}
+
+.footer-middle {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
 /* --------------------------------------------------- Service cards */
 /* Original Code: https://bootsnipp.com/snippets/92xNm */
 
@@ -215,6 +224,13 @@ a:hover {
 
 /* --------------------------------------------------- Media Queries */
 
+@media (min-width: 325px) {
+  .header-container, .footer-container {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     height: 60vw;
@@ -234,6 +250,18 @@ a:hover {
 
   .profile .profile-img {
     height: 60vw;
+  }
+
+  .footer-left {
+    text-align: left;
+  }
+
+  .footer-middle {
+    text-align: center;
+  }
+
+  .footer-right {
+    text-align: right;
   }
 }
 
