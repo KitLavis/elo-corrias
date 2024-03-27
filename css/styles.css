@@ -96,6 +96,10 @@ a:hover {
   border-radius: 5px;
 }
 
+.footer-links {
+  font-size: 150%;
+}
+
 /* --------------------------------------------------- Service cards */
 /* Original Code: https://bootsnipp.com/snippets/92xNm */
 
