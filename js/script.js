@@ -3,10 +3,12 @@ $(window).on("scroll", function() {
         $(".navbar").addClass("bg-old-lace");
         $(".navbar").addClass("nav-shadow");
         $(".logo-header").removeClass("invisible");
+        $(".top-link").removeClass("invisible");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
         $(".navbar").removeClass("bg-old-lace");
         $(".navbar").removeClass("nav-shadow");
         $(".logo-header").addClass("invisible");
+        $(".top-link").addClass("invisible");
     }
 });
