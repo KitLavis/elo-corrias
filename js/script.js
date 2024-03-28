@@ -1,10 +1,12 @@
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
-        $(".header").addClass("invisible");
-        $(".scroll-header").removeClass("invisible");
+        $(".navbar").addClass("bg-old-lace");
+        $(".navbar").addClass("nav-shadow");
+        $(".logo-header").removeClass("invisible");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
-        $(".scroll-header").addClass("invisible");
-        $(".header").removeClass("invisible");
+        $(".navbar").removeClass("bg-old-lace");
+        $(".navbar").removeClass("nav-shadow");
+        $(".logo-header").addClass("invisible");
     }
 });

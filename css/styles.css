@@ -81,10 +81,30 @@ a:hover {
   position: fixed;
   width: 100vw;
   z-index: 999999;
+  transition: background-color 0.3s ease;
+}
+
+.nav-shadow {
+  box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+}
+
+.logo-header {
+  width: 48px;
+  height: 48px;
 }
 
 .hero-section {
-  margin-top: 152.84px;
+  min-height: 100vh;
+}
+
+.logo-top {
+  height: 150px;
+  width: 150px;
+}
+
+#hero-section > .container {
+  height: 100%;
+  width: 100%;
 }
 
 .scroll-header {
@@ -98,6 +118,82 @@ a:hover {
 
 .footer-links {
   font-size: 150%;
+}
+
+footer img {
+  width: 100px;
+  height: 100px;
+}
+
+/* --------------------------------------------------- Fly in/Animation */
+
+/* .hero-text > h1 {
+  animation: flyinfrombelow ease-in-out 1.5s forwards;
+}
+
+.hero-text > p {
+  animation: flyinfrombelow ease-in-out 1.65s forwards;
+}
+
+.hero-text > a {
+  animation: flyinfrombelow ease-in-out 1.7s forwards;
+} */
+
+.flyl-1 {
+  animation: flyinfromleft ease-in-out 1.5s forwards;
+}
+
+.flyl-2 {
+  animation: flyinfromleft ease-in-out 1.65s forwards;
+}
+
+.flyr-1 {
+  animation: flyinfromright ease-in-out 1.5s forwards;
+}
+
+.flyb-1 {
+  animation: flyinfrombelow ease-in-out 1.5s forwards;
+}
+
+.flyb-2 {
+  animation: flyinfrombelow ease-in-out 1.65s forwards;
+}
+
+.flyb-3 {
+  animation: flyinfrombelow ease-in-out 1.7s forwards;
+}
+
+@keyframes flyinfrombelow {
+  from {
+      transform: translatey(100vh);
+      filter: blur(5px);
+  }
+  to {
+      transform: translatey(0);
+      filter: blur(0);
+  }
+}
+
+@keyframes flyinfromright {
+  from {
+      transform: translatex(50vw);
+      filter: blur(5px);
+  }
+  to {
+      transform: translatex(-15vw);
+      filter: blur(0);
+  }
+}
+
+@keyframes flyinfromleft {
+  from {
+      transform: translatex(-50vw);
+      filter: blur(5px);
+  }
+  to {
+      transform: translatex(0);
+      filter: blur(0);
+  }
 }
 
 /* --------------------------------------------------- Service cards */
