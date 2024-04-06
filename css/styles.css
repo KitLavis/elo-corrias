@@ -309,7 +309,7 @@ footer img {
 
 }
 
-div > div > div > ul.testimonial-list {
+div > .col-md-6 > .p-3 > ul.testimonial-list {
   list-style: none;
   padding-inline-start: none;
 }
