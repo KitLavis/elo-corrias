@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://ectranslationservices.com/sitemap.xml
