@@ -309,8 +309,9 @@ footer img {
 
 }
 
-.testimonial-list {
+div > div > div > ul.testimonial-list {
   list-style: none;
+  padding-inline-start: none;
 }
 
 /* --------------------------------------------------- Media Queries */
