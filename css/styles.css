@@ -127,18 +127,6 @@ footer img {
 
 /* --------------------------------------------------- Fly in/Animation */
 
-/* .hero-text > h1 {
-  animation: flyinfrombelow ease-in-out 1.5s forwards;
-}
-
-.hero-text > p {
-  animation: flyinfrombelow ease-in-out 1.65s forwards;
-}
-
-.hero-text > a {
-  animation: flyinfrombelow ease-in-out 1.7s forwards;
-} */
-
 .flyl-1 {
   animation: flyinfromleft ease-in-out 1.5s forwards;
 }

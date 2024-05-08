@@ -1,5 +1,7 @@
 # EC Translation Services
 
+![Website mockup](assets/docs/ec-trans-launch-mockup.png)
+
 This website was designed and built for my client Eleonora Corrias, a freelance Italian marketing translator.
 
 The scope was to create a simple yet eye-catching page to that she can send to potential clients, to clearly explain the services she offers.
