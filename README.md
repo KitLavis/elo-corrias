@@ -14,5 +14,4 @@ The page is a simple "one-pager" that consists of a navbar, five sections (hero,
 
 The navbar is a dynamic element that is fixed to the top of the page, with internal links that when clicked jump to the relevant section. As the user scrolls, the background colour changes and box shadow is added to give a 3D effect. A "top" link and the client's logo are also added on scroll.
 
-Follow the link to see a scroll through of the website:
 [![EC Translation Services scroll through](https://img.youtube.com/vi/FOT6N8TPLiQ/0.jpg)](https://youtu.be/FOT6N8TPLiQ)
