@@ -6,6 +6,10 @@ The scope was to create a simple yet eye-catching page to that she can send to p
 
 ## Features
 
-The page is a simple "one-pager" that consists of a navbar, five sections (hero, about, services, testimonials and contacts) and a footer, all of which can be seen in the video below.
+The page is a simple "one-pager" that consists of a navbar, five sections (hero, about, services, testimonials and contacts) and a footer.
 
-![EC Translation Services site walkthrough](assets/docs/elo-c-vid.mp4)
+- Navbar
+
+The navbar is a dynamic element that is fixed to the top of the page, with internal links that when clicked jump to the relevant section. As the user scrolls, the background colour changes and box shadow is added to give a 3D effect. A "top" link and the client's logo are also added on scroll.
+
+[![EC Translation Services scroll through](https://img.youtube.com/vi/FOT6N8TPLiQ/0.jpg)](https://youtu.be/FOT6N8TPLiQ)
